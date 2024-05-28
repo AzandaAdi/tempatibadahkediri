@@ -65,8 +65,8 @@
       <img id="klenteng" crossorigin="anonymous" src="./img/KlentengTjoeHwieKiong.jpg" alt="Klenteng Tjoe Hwie Kiong Kediri" />
 
       <img id="masjid-thumb" crossorigin="anonymous" src="./thumb/masjid.png" alt="Thumbnail Masjid Agung Kediri"/>
-      <img id="gereja-thumb" crossorigin="anonymous" src="./thumb/gereja.png" alt="thumbnail kampus2 unp kediri"/>
-      <img id="klenteng-thumb" crossorigin="anonymous" src="./thumb/klenteng.png" alt="thumbnail kampus3 unp kediri"/>
+      <img id="gereja-thumb" crossorigin="anonymous" src="./thumb/gereja.png" alt="thumbnail GPIB Immanuel Kediri"/>
+      <img id="klenteng-thumb" crossorigin="anonymous" src="./thumb/klenteng.png" alt="Klenteng Tjoe Hwie Kiong Kediri"/>
 
 
       <audio id="click-sound" crossorigin="anonymous"
@@ -74,12 +74,12 @@
     </a-assets>
 
     <!-- 360-degree image. -->
-    <a-sky id="image-360" radius="10" src="#kampus1"
+    <a-sky id="image-360" radius="10" src="#masjid"
       animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
       animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"></a-sky>
 
     <!-- Image links. -->
-    <a-entity id="links" layout="type: line; margin: 1.5" position="-3 -0.5 -4">
+    <a-entity id="links" layout="type: line; margin: 1.5" position="-1.5 -0.5 -4">
       <a-entity template="src: #link" data-src="#masjid" data-thumb="#masjid-thumb"></a-entity>
       <a-entity template="src: #link" data-src="#gereja" data-thumb="#gereja-thumb"></a-entity>
       <a-entity template="src: #link" data-src="#klenteng" data-thumb="#klenteng-thumb"></a-entity>
